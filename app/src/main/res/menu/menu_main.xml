@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/favourite"
+        android:icon="@drawable/ic_favourite"
+        android:title="@string/favourite"
+        android:orderInCategory="40"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/buy"
+        android:icon="@drawable/ic_buy"
+        android:title="Buy"
+        android:orderInCategory="60"
+        app:showAsAction="ifRoom"/>
+</menu>
